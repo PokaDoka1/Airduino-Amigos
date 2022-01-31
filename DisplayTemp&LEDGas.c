@@ -32,6 +32,8 @@ void setup() {
 
   // Initialize the digital pin 8 as an output
   pinMode(pin8, OUTPUT);
+  // Initialize the digital pin 0 as an output
+  pinMode(pin0, OUTPUT);
   // Initialize serial communication at 9600 bits per second
   Serial.begin(9600);
 }
